@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+}
+
+/* Próximos eventos */
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 10px solid #568acc;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+/* Contiene foto, nombre de la banda, fecha y boton */
+article {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+/* Nombre de la banda*/
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+/* Fecha del recital */
+p.fecha {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/* Boton comprar */
+a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #1f5c99;
+    color: white;
+    text-decoration: none;
+}
+
+/* Media query celular */
+@media only screen and (max-width: 600px) {
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    img {
+        width: 95vw;
+    }
+}
+
+/* Media query tablet */
+@media only screen and (min-width: 600px) {
+    
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    img {
+        width: 40vw;
+    }
+}
+
+/* Media query laptop */
+@media only screen and (min-width: 1000px) {
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    img {
+        width: 25vw;
+    }
+}
