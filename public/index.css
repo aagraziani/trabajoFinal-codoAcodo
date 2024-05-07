@@ -21,6 +21,7 @@ h2.proximos-eventos {
     border-bottom: 10px solid #568acc;
 }
 
+/* Contine los article de las bandas */
 section {
     display: flex;
     flex-direction: row;
@@ -47,9 +48,9 @@ h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     position: absolute;
-    bottom: 60px;
+    bottom: 69px;
     background-color: rgba(255, 255, 255, 0.75);
-    width: 96%;
+    width: 97%;
 }
 
 /* Fecha del recital */
@@ -73,6 +74,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    background-color: #568acc;
+}
+
 /* Media query celular */
 @media only screen and (max-width: 600px) {
 
@@ -86,6 +91,7 @@ a {
 
     img.imagen-banda { 
         width: 95vw;
+        margin-bottom: 10px;
     }
 }
 
@@ -102,6 +108,7 @@ a {
 
     img {
         width: 40vw;
+        margin-bottom: 10px;
     }
 }
 
@@ -119,5 +126,6 @@ a {
 
     img {
         width: 25vw;
+        margin-bottom: 10px;
     }
 }
