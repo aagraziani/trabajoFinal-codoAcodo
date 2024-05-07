@@ -6,8 +6,15 @@
     font-size: 11px;
 }
 
-/* Próximos eventos */
+/* Shows destacados */
 h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Próximos eventos */
+h2.proximos-eventos {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     text-align: center;
@@ -40,7 +47,7 @@ h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     position: absolute;
-    bottom: 70px;
+    bottom: 60px;
     background-color: rgba(255, 255, 255, 0.75);
     width: 96%;
 }
