@@ -1,3 +1,4 @@
+/* General */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,21 +7,16 @@
     font-size: 11px;
 }
 
-/* Shows destacados */
+/* Títulos */
 h2 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    text-align: center;
-}
-
-/* Próximos eventos */
-h2.proximos-eventos {
+    display: block;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     text-align: center;
     border-bottom: 10px solid #568acc;
 }
 
+/* Contine los article de las bandas */
 section {
     display: flex;
     flex-direction: row;
@@ -47,12 +43,16 @@ h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     position: absolute;
-    bottom: 60px;
+    bottom: 69px;
     background-color: rgba(255, 255, 255, 0.75);
-    width: 96%;
+    width: 97%;
 }
 
 /* Fecha del recital */
+p i {
+    font-size: 2rem;
+    color: #568acc;
+}
 p.fecha {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -71,6 +71,12 @@ a {
     background-color: #1f5c99;
     color: white;
     text-decoration: none;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+a:hover {
+    opacity: 0.75;
 }
 
 /* Media query celular */
@@ -86,6 +92,7 @@ a {
 
     img.imagen-banda { 
         width: 95vw;
+        margin-bottom: 10px;
     }
 }
 
@@ -102,6 +109,7 @@ a {
 
     img {
         width: 40vw;
+        margin-bottom: 10px;
     }
 }
 
@@ -119,5 +127,6 @@ a {
 
     img {
         width: 25vw;
+        margin-bottom: 10px;
     }
 }
