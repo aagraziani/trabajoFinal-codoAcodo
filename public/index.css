@@ -1,3 +1,4 @@
+/* General */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,6 +16,7 @@ h2 {
 
 /* Próximos eventos */
 h2.proximos-eventos {
+    display: block;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     text-align: center;
@@ -72,10 +74,12 @@ a {
     background-color: #1f5c99;
     color: white;
     text-decoration: none;
+    opacity: 1;
+    transition: 0.5s;
 }
 
 a:hover {
-    background-color: #568acc;
+    opacity: 0.75;
 }
 
 /* Media query celular */
