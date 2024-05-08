@@ -7,15 +7,8 @@
     font-size: 11px;
 }
 
-/* Shows destacados */
+/* Títulos */
 h2 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    text-align: center;
-}
-
-/* Próximos eventos */
-h2.proximos-eventos {
     display: block;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -56,6 +49,10 @@ h3 {
 }
 
 /* Fecha del recital */
+p i {
+    font-size: 2rem;
+    color: #568acc;
+}
 p.fecha {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
