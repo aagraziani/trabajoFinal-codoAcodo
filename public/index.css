@@ -7,6 +7,10 @@
     font-size: 11px;
 }
 
+iframe {
+    width: 90vw;
+}
+
 /* Títulos */
 h2 {
     display: block;
@@ -23,7 +27,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 /* Contiene foto, nombre de la banda, fecha y boton */
