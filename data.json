@@ -2,119 +2,119 @@
     {
         "id": 0,
         "foto": "/public/img/andres-calamaro.png",
-        "alt-text": "andres-calamaro",
+        "descripcion": "andres-calamaro",
         "nombre": "Andres Calamaro",
         "fecha": "22 de mayo"
     },
     {
         "id": 1,
         "foto": "/public/img/blink-182.png",
-        "alt-text": "blink-182",
+        "descripcion": "blink-182",
         "nombre": "Blink 182",
         "fecha": "26 de mayo"
     },
     {
         "id": 2,
         "foto": "/public/img/caligaris.png",
-        "alt-text": "caligaris",
+        "descripcion": "caligaris",
         "nombre": "Caligaris",
         "fecha": "2 de junio"
     },
     {
         "id": 3,
         "foto": "/public/img/cuarteto-de-nos.png",
-        "alt-text": "cuarteto-de-nos",
+        "descripcion": "cuarteto-de-nos",
         "nombre": "Cuarteto de Nos",
         "fecha": "5 de junio"
     },
     {
         "id": 4,
         "foto": "/public/img/die-toten-hosen.png",
-        "alt-text": "die-toten-hosen",
+        "descripcion": "die-toten-hosen",
         "nombre": "Die Toten Hosen",
         "fecha": "8 de junio"
     },
     {
         "id": 5,
         "foto": "/public/img/divididos.png",
-        "alt-text": "divididos",
+        "descripcion": "divididos",
         "nombre": "Divididos",
         "fecha": "11 de junio"
     },
     {
         "id": 6,
         "foto": "/public/img/estelares.png",
-        "alt-text": "estelares",
+        "descripcion": "estelares",
         "nombre": "Estelares",
         "fecha": "14 de junio"
     },
     {
         "id": 7,
         "foto": "/public/img/fito-y-fitipaldis.png",
-        "alt-text": "fito-y-fitipaldis",
+        "descripcion": "fito-y-fitipaldis",
         "nombre": "Fito y Fitipaldis",
         "fecha": "17 de junio"
     },
     {
         "id": 8,
         "foto": "/public/img/goldfinger.png",
-        "alt-text": "goldfinger",
+        "descripcion": "goldfinger",
         "nombre": "Goldfinger",
         "fecha": "20 de junio"
     },
     {
         "id": 9,
         "foto": "/public/img/green-day.png",
-        "alt-text": "green-day",
+        "descripcion": "green-day",
         "nombre": "Green Day",
         "fecha": "23 de junio"
     },
     {
         "id": 10,
         "foto": "/public/img/guasones.png",
-        "alt-text": "guasones",
+        "descripcion": "guasones",
         "nombre": "Guasones",
         "fecha": "26 de junio"
     },
     {
         "id": 11,
         "foto": "/public/img/iggy-pop.png",
-        "alt-text": "iggy-pop",
+        "descripcion": "iggy-pop",
         "nombre": "Iggy Pop",
         "fecha": "29 de junio"
     },
     {
         "id": 12,
         "foto": "/public/img/iron-maiden.png",
-        "alt-text": "iron-maiden",
+        "descripcion": "iron-maiden",
         "nombre": "Iron Maiden",
         "fecha": "2 de julio"
     },
     {
         "id": 13,
         "foto": "/public/img/ramones.png",
-        "alt-text": "ramones",
+        "descripcion": "ramones",
         "nombre": "Ramones",
         "fecha": "5 de julio"
     },
     {
         "id": 14,
         "foto": "/public/img/ska-p.png",
-        "alt-text": "ska-p",
+        "descripcion": "ska-p",
         "nombre": "Ska-p",
         "fecha": "8 de julio"
     },
     {
         "id": 15,
         "foto": "/public/img/the-offspring.png",
-        "alt-text": "the-offspring",
+        "descripcion": "the-offspring",
         "nombre": "The Offspring",
         "fecha": "11 de julio"
     },
     {
         "id": 16,
         "foto": "/public/img/rolling-stones.png",
-        "alt-text": "the-rolling-stones",
+        "descripcion": "the-rolling-stones",
         "nombre": "Rolling Stones",
         "fecha": "14 de julio"
     }
