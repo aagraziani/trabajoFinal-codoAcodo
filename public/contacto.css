@@ -6,6 +6,18 @@
     font-size: 11px;
 }
 
+
+.contenedor-informacion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mapa iframe{
+    width: 600px;
+    height: 500px;
+}
+
 .contenedor-formulario
 {
     display: block;
@@ -14,9 +26,13 @@
 
 form
 {
+    width: 700px;
+    background: #3b73b2;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
     text-align: left;
 }
 
@@ -37,12 +53,23 @@ form
 
 input {
     display: block;
+    font-size: 15px;
+}
+
+.datos-formulario input{
+    width: 600px;
 }
 
 /* Motivo de la consulta */
 
 p {
     margin-left: 12px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.contenedor-informacion .informacion p{
+    color: black;
 }
 
 .consulta {
@@ -62,8 +89,14 @@ input[type="radio"] {
     display: inline;
 }
 
+label{
+    color: aliceblue;
+    font-size: 15px;
+}
+
 label.consulta {
     display: inline;
+
 }
 
 /* Metodo de contacto */
@@ -73,7 +106,13 @@ label.consulta {
 }
 
 select {
-    margin: 5px 0px 12px 12px
+    margin: 5px 0px 12px 12px;
+    font-size: 15px;
+    width: 270px;
+}
+
+option{
+    font-size: 15px;
 }
 
 /* Comentario */
@@ -83,20 +122,26 @@ select {
 
 textarea {
     display: block;
-    margin: 0px 0px 12px 12px
+    font-size: 15px;
+    margin: 0px 0px 12px 12px;
+    width: 600px;
+    height: 100px;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
 }
 
 /* Boton Enviar */
 button {
     margin: 12px 0px 0px 12px;
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1rem;
     padding: 5px 10px;
     border-style: none;
     border-radius: 5px;
-    background-color: #1f5c99;
-    color: white;
+    background-color: aliceblue;
+    color: #1f5c99;
     text-decoration: none;
     opacity: 1;
     transition: 0.5s;
