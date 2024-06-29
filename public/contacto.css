@@ -97,9 +97,6 @@ select {
     width: 270px;
 }
 
-option{
-    font-size: 15px;
-}
 
 /* Comentario */
 .comentario {
@@ -190,6 +187,10 @@ button:hover {
         width: 200px;
     }
 
+    option{
+        font-size: 13px;
+    }
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -256,6 +257,9 @@ button:hover {
         text-align: left;
     }
 
+    option{
+        font-size: 15px;
+    }
 }
 
 

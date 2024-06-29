@@ -107,7 +107,9 @@ section.comprar{
 }
 
 
-
+option{
+    font-size: 15px;
+}
 
 
 /* Nombre de la banda*/
