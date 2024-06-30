@@ -12,6 +12,7 @@
     />
     <!-- CSS -->
     <link rel="stylesheet" href="/public/header-nav.css" />
+    <link rel="stylesheet" href="/public/cargar-banda.css" />
     <link rel="stylesheet" href="/public/index.css" />
     <link rel="stylesheet" href="/public/footer.css" />
     <!-- Google fonts -->
@@ -32,75 +33,85 @@
       crossorigin="anonymous"
     ></script>
     <script src="/JS/agregar-banda.js"></script>
+    <script src="/JS/fectchData.js"></script>
     <title>Estadio Aurora</title>
   </head>
   <body>
+
     <header>
-      <a href="index.html"
-        ><img
-          src="/public/img/logo-horizontal-blanco.png"
-          alt="Logo Estadio Aurora - Compra de entradas para recitales"
-      /></a>
-      <nav>
-        <a class="nav-link" href="index.html">Home</a>
-        <a class="nav-link" href="./pages/proximos-recitales.html"
-          >Proximos recitales</a
-        >
-        <a class="nav-link" href="./pages/preguntas-frecuentes.html"
-          >Preguntas Frecuentes</a
-        >
-        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-        <a class="nav-link" href="">Login</a>
-      </nav>
+        <a href="../index.html"><img src="/public/img/logo-horizontal-blanco.png" alt="Logo Estadio Aurora - Compra de entradas para recitales"></a>
+        <nav>
+            <a class="nav-link" href="../index.html">Home</a>
+            <a class="nav-link" href="proximos-recitales.html">Proximos recitales</a>
+            <a class="nav-link" href="preguntas-frecuentes.html">Preguntas Frecuentes</a>
+            <a class="nav-link" href="#">Contacto</a>
+        </nav>
     </header>
-    <main>
-        <form action="" method="POST" id="Formulario" class="Formulario">
-            <label for="nombre-banda">Nombre de la banda</label>
-            <input type="text" name="nombre-banda" id="nombre-banda">
 
-            <label for="genero-banda">Genero</label>
-            <input type="text" name="genero-banda" id="genero-banda">
+    <section class="contenedor-formulario">
+      <form method="POST" action="" id="Formulario">
+        <section class="datos-formulario">
+          <!-- Datos de contacto -->
+          <article class="nombre">
+            <label for="nombre-banda" class="datos-personales">Nombre de la banda</label>
+            <input
+              type="text"
+              name="nombre-banda"
+              id="nombre-banda"
+              class="datos-personales"
+            />
+          </article>
 
-            <label for="fecha-banda">Fecha</label>
-            <input type="text" name="fecha-banda" id="fecha-banda">
+          <article class="apellido">
+            <label for="genero-banda" class="datos-personales">Genero de la banda</label>
+            <input
+              type="text"
+              name="genero-banda"
+              id="genero-banda"
+              class="datos-personales"
+            />
+          </article>
 
-            <button type="button" id="Crear" title="Crear">Cargar</button>
-            <input id="task_id" type="hidden" name="task_id">
-        </form>
+          <article class="apellido">
+            <label for="fecha-banda" class="datos-personales">Fecha de la banda</label>
+            <input
+              type="text"
+              name="fecha-banda"
+              id="fecha-banda"
+              class="datos-personales"
+            />
+          </article>
 
-    </main>
-    <!-- Footer -->
+          <article class="apellido">
+            <label for="foto-banda" class="datos-personales">Foto de la banda</label>
+            <input
+              type="text"
+              name="foto-banda"
+              id="foto-banda"
+              class="datos-personales"
+            />
+          </article>
+
+                </section>
+
+        
+        <!-- Boton de enviar -->
+        <button type="submit" id="Crear" title="Crear">Crear</button>
+        <input id="task_id" type="hidden" name="task_id">
+      </form>
+    </section>
+  
     <footer>
-      <section class="social-media">
-        <a
-          href="https://open.spotify.com/playlist/1fIfkuQX6lxszJss32kr1s?si=cccb9e4ec32d4e7e"
-          target="_blank"
-          ><i class="fa-brands fa-spotify"></i
-        ></a>
-        <a
-          href="https://www.instagram.com/los2minutos?igsh=MXF5MzF3MXQ5MGxpw=="
-          target="_blank"
-          ><i class="fa-brands fa-square-instagram"></i
-        ></a>
-        <a href="https://www.youtube.com/watch?v=NhyK-aVUELU" target="_blank"
-          ><i class="fa-brands fa-youtube"></i
-        ></a>
-      </section>
+        <section class="social-media">
+          <a href="https://open.spotify.com/playlist/1fIfkuQX6lxszJss32kr1s?si=cccb9e4ec32d4e7e" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+          <a href="https://www.instagram.com/los2minutos?igsh=MXF5MzF3MXQ5MGxpw==" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://www.youtube.com/watch?v=NhyK-aVUELU" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </section>
+  
+        <a href="../index.html">
+          <img class="logo-footer" src="/public/img/logo-horizontal-blanco.png" alt="">
+        </a>
+      </footer>
 
-      <a href="index.html">
-        <img
-          class="logo-footer"
-          src="/public/img/logo-horizontal-blanco.png"
-          alt=""
-        />
-      </a>
-    </footer>
-
-    <!-- Script Bootstrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </body>
 </html>
