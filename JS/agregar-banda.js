@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "cors",
       () => {
         document.querySelector("#Formulario").reset();
+        window.location.replace("../pages/proximos-recitales.html");
       },
       data
     );
