@@ -1,6 +1,7 @@
-function  fetchData(url, method, callback, data = null) {
+function  fetchData(url, method, mode,callback, data = null) {
     const options = {
         method: method,
+        mode: mode,
         headers: {
             'Content-Type': 'application/json',
         },

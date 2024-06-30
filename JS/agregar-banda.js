@@ -10,11 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
     let nombre = document.querySelector("#Formulario #nombre-banda").value;
     let fecha = document.querySelector("#Formulario #fecha-banda").value;
     let genero = document.querySelector("#Formulario #genero-banda").value;
+    let foto = document.querySelector("#Formulario #foto-banda").value;
 
     let data = {
       nombre: nombre,
-      fecha: fecha,
       genero: genero,
+      fecha: fecha,
+      foto: foto
     };
     console.log(data);
 
@@ -23,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     fetchData(
       url,
       "POST",
+      "cors",
       () => {
         document.querySelector("#Formulario").reset();
       },
