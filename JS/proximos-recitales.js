@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const section = document.querySelector(".proximos-recitales");
 
-  fetch("http://127.0.0.1:5000/api/tasks/get_all")
+  fetch("http://127.0.0.1:5000/api/bands/get_all")
     .then((response) => response.json())
     .then((data) => {
       for (let i = 0; i < data.length; i++) {

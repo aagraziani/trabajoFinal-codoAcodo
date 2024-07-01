@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
     console.log(data);
 
-    let url = "http://localhost:5000/api/tasks/create/";
+    let url = "http://localhost:5000/api/bands/create/";
 
     fetchData(
       url,
