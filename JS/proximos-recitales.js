@@ -31,14 +31,40 @@ document.addEventListener("DOMContentLoaded", function () {
         a.textContent = "Comprar";
         a.className = "boton-comprar";
 
+        //Agregar el boton eliminar
+        const button = document.createElement("button");
+        button.textContent = "Eliminar";
+        button.className = "boton-eliminar";
+        a.appendChild(button);
+
         //Le agrega los elementos al article
         article.appendChild(img);
         article.appendChild(h3);
         article.appendChild(p);
         article.appendChild(a);
+        article.appendChild(button);
 
         //Le agrega el article al section
         section.appendChild(article);
+
+        button.addEventListener("click", function (e) {
+          e.preventDefault();
+          console.log(data[i]);
+
+          let url = "http://localhost:5000/api/bands/delete/" + data[i].id;
+
+          fetchData(
+            url,
+            "DELETE",
+            "cors",
+            () => {
+              window.location.reload();
+            },
+            data[i]
+          );
+
+          console.log("Estoy despues del evento del boton");
+        });
       }
     })
     .catch((error) => console.error(error));

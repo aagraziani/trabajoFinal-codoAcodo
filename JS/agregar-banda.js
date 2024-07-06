@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   let formulario = document.querySelector("#Formulario");
   let params = new URLSearchParams(document.location.search);
-  let task_id = params.get("task_id");
+  let id_band = params.get("id_band");
   let submitButton = document.querySelector("#Formulario #Crear");
 
   formulario.addEventListener("submit", (event) => {
